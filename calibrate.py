@@ -27,7 +27,7 @@ def draw_circle(event,x,y,flags,param):
 def redraw_markers(img, markers):
     img_with_points = deepcopy(img)
     for marker in markers:
-        cv2.drawMarker(img_with_points, tuple(marker),(255,0,0), markerType=cv2.MARKER_STAR, 
+        cv2.drawMarker(img_with_points, tuple(marker),(0,150,255), markerType=cv2.MARKER_STAR, 
             markerSize=40, thickness=1, line_type=cv2.LINE_AA)
     return img_with_points
 
