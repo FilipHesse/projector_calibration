@@ -16,7 +16,7 @@ def draw_circle(event,x,y,flags,param):
     global points_dst, i
     if event == cv2.EVENT_LBUTTONDOWN:
         #cv2.circle(img_with_points,(x,y),5,(255,0,0),-1)
-        cv2.drawMarker(img_with_points, (x, y),(255,0,0), markerType=cv2.MARKER_STAR, 
+        cv2.drawMarker(img_with_points, (x, y),(0,150,255), markerType=cv2.MARKER_STAR, 
             markerSize=40, thickness=1, line_type=cv2.LINE_AA)
         points_dst[i,0] = x
         points_dst[i,1] = y
