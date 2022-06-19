@@ -1,0 +1,16 @@
+Ordner Persönlich -> Unterordner projector_calibration -> Rechtsklick -> im Terminal öffnen. 
+Eingeben: python calibrate.py -> Enter -> Shift + Windows + Rechtspfeil
+Fenster einrasten
+Ecken einrasten. Steuerung mit Pfeiltasten: WASD
+Fertig? Q drücken.
+Auf transformiertes Bild klicken und irgendeinen Buchstaben drücken.
+
+Zurück zu Terminal -> Eingeben: python transform_image.py -> Enter
+Rüberschieben mit Shift+ Windows + Rechtspfeil
+
+PDF Zoom: 18,8%
+
+Ecken: 0.55; 20:55; 42,5:55; 65:55, 85:55
+       0:35, 20:35....
+       0:20....
+       0:0......
